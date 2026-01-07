@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css\style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=copy_all"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <script src="js\app.js" defer></script>
+    <div class="program">
+      <h1>Генератор паролей</h1>
+      <input type="text" disabled class="outLine" />
+      <span class="material-symbols-outlined"> copy_all </span>
+      <div class="length">
+        <label for="">Длина</label>
+        <span>12</span><br />
+      </div>
+      <div class="rangBtn">
+        <input type="range" min="2" max="32" value="16" step="1" />
+      </div>
+      <input type="checkbox" id="uppercaseLetters" />
+      <label for="uppercaseLetters">Заглавные буквы (A-Z)</label><br />
+      <input type="checkbox" id="lowercaseLetters" />
+      <label for="lowercaseLetters">Строчные буквы (a-z)</label><br />
+      <input type="checkbox" id="numbers" />
+      <label for="numbers">Цифры (1-9)</label><br />
+      <input type="checkbox" id="symbols" />
+      <label for="symbols">Символы (!@#~)</label><br />
+      <button>Сгенерировать</button>
+    </div>
+  </body>
+</html>

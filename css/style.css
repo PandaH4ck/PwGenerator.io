@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #121826;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.program {
+  background-color: #232e44;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  color: #f0f0f0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.program h1 {
+  text-align: center;
+  margin: 0%;
+  color: #ffffff;
+}
+.program .length span {
+  float: right;
+}
+.program button {
+  background-color: #387adf;
+  border: none;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  margin: 16px 0px 0px 0px;
+  transition: 0.5s;
+}
+.program button:hover {
+  background-color: #5d9bff;
+}
+#uppercaseLetters,
+#lowercaseLetters,
+#numbers,
+#symbols {
+  float: right;
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+}
+.outLine {
+  border-radius: 8px;
+  height: 30px;
+  width: 100%;
+  border: none;
+}
+.material-symbols-outlined {
+  cursor: pointer;
+  margin-top: -26px;
+  color: #adb5bd;
+  float: right;
+}
+.rangBtn input {
+  width: 100%;
+  cursor: pointer;
+}
